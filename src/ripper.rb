@@ -1,4 +1,6 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env chruby 2.5 do ruby
+
+# raise 'hey htere'.inspect
 
 # We implement our own version checking here instead of using Gem::Version so
 # that we can use the --disable-gems flag.
